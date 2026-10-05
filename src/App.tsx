@@ -18,8 +18,7 @@ import { MyBookingsModal } from './components/MyBookingsModal';
 import { MallGuideModal } from './components/MallGuideModal';
 import { NavigationOverlay } from './components/NavigationOverlay';
 import { playSensorChime, playSpotSelectSound } from './utils/audio';
-
-const MALL_HERO_LIGHT_IMAGE = '/src/assets/images/mall_glass_light_1791181180368.jpg';
+import mallHeroLightImage from './assets/images/mall_glass_light_1791181180368.jpg';
 
 export default function App() {
   const [spots, setSpots] = useState<ParkingSpot[]>(() => generateInitialSpots());
@@ -273,7 +272,7 @@ export default function App() {
           {/* Daylight architectural backdrop with soft scrim */}
           <div className="absolute inset-0 pointer-events-none -z-10 overflow-hidden opacity-30">
             <img
-              src={MALL_HERO_LIGHT_IMAGE}
+              src={mallHeroLightImage}
               alt="Grand Horizon Mall Daylight Glass Architecture"
               className="w-full h-full object-cover object-center filter blur-[1px] scale-105"
               referrerPolicy="no-referrer"
