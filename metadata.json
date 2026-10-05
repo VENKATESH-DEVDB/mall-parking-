@@ -1,0 +1,6 @@
+{
+  "name": "AuraPark - Mall Parking & Spot Reservation",
+  "description": "Real-time smart mall parking reservation and online payment with minimal glassmorphic interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
